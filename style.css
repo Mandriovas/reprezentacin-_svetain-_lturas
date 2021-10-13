@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.devider {
+    text-align: right;
+}
+
+.devider img{
+    padding-right: 50px;
+    margin-top: -50px;
+}
+
+.devider2 {
+    text-align: right;
+}
+
+.devider2 img {
+    padding-right: 50px;
+    margin-top: 80px;
+}
+
+.devider3 {
+    text-align: right;
+}
+
+.devider3 img {
+    padding-right: 50px;
+    margin-top: -150px;
+}
+
+
+
+
+/*        HEAD             */
+
+.head {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.navigacija {
+    height: 100%;
+}
+
+.navigacija ul li {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.navigacija ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+
+.navigacija ul li a:hover,
+.navigacija ul li a:active {
+    color: #61CE70;
+}
+
+/*         HERO          */
+
+.hero {
+    background-image: url(IMG_8311.jpeg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.hero-content {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.hero-tekstas {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0 15px;
+}
+
+.hero-content .hero-tekstas h2 {
+    color: #051145;
+    font-family: 'Purple Purse', cursive;
+    font-size: 3.333rem;
+    text-align: center;
+}
+
+
+/*              APIE            */
+.apie {
+    padding: 60px 0;
+    text-align: center;
+
+}
+
+.apie h2 {
+    font-family: 'Purple Purse', cursive;
+    color: #051145;
+    font-size: 3.33rem;
+    padding: 15px 0;
+}
+
+.apie p {
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 35px;
+}
+
+/*          PASLAUGOS           */
+
+.paslaugos {
+    padding: 60px 0;
+    background: rgb(231,244,255);
+    background: linear-gradient(180deg, rgba(231,244,255,1) 0%, rgba(209,235,227,1) 100%);
+    text-align: center;
+}
+
+
+.paslaugos h2 {
+    font-family: 'Purple Purse', cursive;
+    color: #051145;
+    font-size: 3.33rem;
+    padding: 15px 0;
+}
+
+.paslaugos h3 {
+    font-family: 'Purple Purse', cursive;
+    color: #051145;
+    font-size: 35px;
+    padding: 20px 0;
+}
+
+.paslaugos p {
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 35px;
+}
+
+
+/*     UZKLAUSA      */
+.uzklausa {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.forma{
+    text-align: center;
+
+}
+
+.forma .eilute {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.forma .pem1 {
+    clear: both !important;
+    margin-left: 0 !important;
+    width: 46%;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.forma .pem1 input {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background-color: #FAFAFA;
+    border: solid 1px #EAEAEA;
+}
+
+.forma .pem2 {
+    width: 46%;
+    float: right;
+}
+
+.forma .pem2 input {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background-color: #FAFAFA;
+    border: solid 1px #EAEAEA;
+}
+
+.uzklausa h2 {
+    font-family: 'Purple Purse', cursive;
+    color: #051145;
+    font-size: 3.33rem;
+    padding: 15px 0;
+}
+
+.eilute .email , .eilute .textarea {
+    width: 100%;
+    background-color: #FAFAFA;
+    border: solid 1px #EAEAEA;
+    padding: 20px;
+}
+
+.eilute .mgt {
+    background-color: #278575;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.eilute .mgt:hover {
+    background-color: #227769;
+}
+
+
+
+
+
+/*          PARTNERIAI          */
+.partneriai {
+    margin: 60px 0;
+}
+
+.gridas {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+
+/*          FOOTERIS            */
+.top {
+    padding: 60px;
+    background-color: #ECF0F2;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.top p {
+    line-height: 3;
+    font-weight: 300;
+}
+
+.kontaktai {
+    text-align: center;
+}
+
+.kontaktai h3, .rekvizitai h3 {
+    font-size: 24px;
+    margin: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.kontaktai a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    line-height: 3;
+    font-weight: 300;
+}
+
+.kontaktai a:hover {
+    color: #227769;
+}
+
+.soc button{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.soc button:hover{
+    color: #227769;
+}
+
+.soc i {
+    font-size: 18px;
+    padding: 5px;
+}
+
+/*          FOOTER BOTTOM           */
+.bottom {
+    background-color: #ECF0F2;
+    border-top: 1px solid #d3d3d3;
+    padding: 30px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright p {
+    color: #3a3a3a;
+    font-size: 14px;
+}
